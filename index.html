@@ -1,34 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Supawit Promma - Homepage</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <title>Supawit Promma - Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <!-- Font M PLUS Rounded -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap"
+      rel="stylesheet"
+    />
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    <!-- Vanta -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    <!-- Vanta Script -->
+    <script src="scripts/vanta.js"></script>
 
-  <link rel="stylesheet" href="styles/index.css">
-  <script src="scripts/index.js"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/82f9d6f7ce.js"
+      crossorigin="anonymous"
+    ></script>
 
-</head>
-<body>
+    <!-- Style -->
+    <link rel="stylesheet" href="styles/index.css" />
 
-  <div id="vanta">
-    <div class="hero">
-      <div class="nav">Nav</div>
-      <div class="content"><h4>Hi, I'm</h4><br><h1>Supawit Promma</h1></div>
-      <div class="footer">Footer</div>
+    <!-- Script -->
+    <!-- <script src="scripts/index.js"></script> -->
+  </head>
+  <body>
+    <!-- First page -->
+    <div id="vanta">
+      <div id="hero">
+        <div class="nav"></div>
+
+        <div class="content">
+          <h4>Hi, My name is</h4>
+          <h1>Supawit Promma.</h1>
+        </div>
+
+        <div class="footer">
+          <i class="fa-solid fa-angle-down fa-xl"></i>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div class="about">
-    About
-  </div>
+    <!-- About -->
+    <div id="about">
+      <div class="about-header">
+        <h1>About Me</h1>
+      </div>
 
-</body>
+      <div class="about-content">
+        <div class="whoami">
+          <p>
+            Born in 2004 in Chiangmai, Thailand. I'm just a student who
+            interested in computer programing. I love playing video
+            game and reading book.
+          </p>
+        </div>
+
+        <!-- <div class="skill">
+          <div class="skill-header">
+            <h1>Skill</h1>
+          </div>
+          <div class="skill-content">
+            <div class="skill-name">
+              <i class="fa-solid fa-circle fa-2xs"></i>Python
+            </div>
+            <div class="skill-name">
+              <i class="fa-solid fa-circle fa-2xs"></i>JavaScript
+            </div>
+            <div class="skill-name">
+              <i class="fa-solid fa-circle fa-2xs"></i>HTML
+            </div>
+            <div class="skill-name">
+              <i class="fa-solid fa-circle fa-2xs"></i>CSS
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Project -->
+    <div id="project">
+      <div class="project-header">
+        <h1>My Work</h1>
+      </div>
+
+      <div class="project-content">
+        <div class="work">
+          <div class="work-title">
+            <a href="https://github.com/MasterWinZ/Weather-Cli" target="_blank">
+              Weather-Cli <i class="fa-solid fa-link fa-xs"></i>
+            </a>
+          </div>
+          <div class="work-description">
+            <div class="description">
+              <p>
+                A python program that allows you to look at what weather in your or other city like using only commandline. This program is using weather api from OpenWeather.
+              </p>
+            </div>
+            <div class="stack">
+              <ul>
+                <li><a>Python</a></li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="work">
+          <div class="work-title">
+            <a href="https://github.com/MasterWinZ/Todo-Cli" target="_blank">
+              Todo-Cli <i class="fa-solid fa-link fa-xs"></i>
+            </a>
+          </div>
+          <div class="work-description">
+            <div class="description">
+              <p>
+                A todo list program in commandline that allow you to add, remove and mark todo as done. It's simple but get the job done.
+              </p>
+            </div>
+            <div class="stack">
+              <ul>
+                <li><a>Python</a></li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
 </html>
